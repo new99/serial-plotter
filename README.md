@@ -5,7 +5,7 @@ Russian version [README_RU.md](./README_RU.md)
 serial-plotter – a program for monitoring data from a serial port in real time. The program is written in Rust using the egui, serialport, native-dialog libraries.
 
 ## Windows version
-https://github.com/new99/Recorder_for_MCU/releases
+https://github.com/new99/serial-plotter/releases
 
 ## Manual
 ![Main](./main.png "Main window")
@@ -79,5 +79,5 @@ Serial.begin(9600);
  Serial.println(ft, 5);
  Serial.println();
 }
-``` 
+```
 ![to_time](./Example/Example.png "to_time")
