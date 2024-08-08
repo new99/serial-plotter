@@ -1,0 +1,18 @@
+[package]
+name = "serial-plotter"
+version = "1.0.0"
+edition = "2021"
+authors = ["new99 <k1u2r3ka@mail.ru>"]
+# repository = ""
+description = "Recorder for MCU"
+license = "GPL-3.0"
+keywords = ["Plotter", "graphics", "MCU", "Recorder"]
+publish = false
+
+
+[dependencies]
+
+eframe="0.28.1"
+egui_plot="0.28.1"
+native-dialog = "0.6.4"
+serialport="4.2.1"
